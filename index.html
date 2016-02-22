@@ -2,20 +2,59 @@
 
 <head>
 <title>Ebrius: Indie Video Game Studio</title>
-<link rel="stylesheet" href="global.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="assets/global.css">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74031885-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 
+<body>
 <header>
-<img src="photo.jpg" alt="logo">
+ <input type="checkbox" id="togglebox" />
+  <label for="togglebox" id="navtoggler">Menu</label>
+<img src="images/ebrius-indie-game-studo-logo.png" width="150" alt="Ebrius Indie Video Game Studio Logo">
 <h1>Ebrius</h1>
 <h2>Game Studio</h2>
 
-<nav>
+
+<nav id="offcanvas">
 <ul>
-  <li><a href="index.html">Home</a></li>
+  <li><a href="../index.html">Home</a></li>
   <li>
   <div class="dropdown">
-  <div class="drop-menu">Games</a> 
+  <div class="drop-menu">Games</div>
+  <div class="dropdown-content">
+    <a href="games/guardian.html">Guardian</a>
+    <a href="games/altered.html">Altered</a>
+    <a href="games/dunlore.html">Dunlore</a>
+    <a href="games/divided.html">Divided</a>
+    <a href="games/charm.html">Charm</a>
+    <a href="games/chasm_climb.html">Chasm Climb</a>
+  </div>
+</div>
+  </li>
+  <li><a href="index.html">About</a></li>
+  <li><a href="index.html">Contact</a></li>
+</ul>
+
+<!--<div class="mobile-menu">
+  <div class="mobile-dropdown">
+  <div class="mobile-drop-menu">Menu</div>
+  <div class="mobile-dropdown-content">
+  <a href="../index.html">Home</a>
+  <div class="dropdown">
+  <div class="drop-menu">Games</div>
   <div class="dropdown-content">
     <a href="guardian.html">Guardian</a>
     <a href="#">Altered</a>
@@ -24,15 +63,14 @@
     <a href="#">Chasm Climb</a>
   </div>
 </div>
-  </li>
-  <li><a href="index.html">About</a></li>
-  <li><a href="index.html">Contact</a></li>
+  <a href="index.html">About</a>
+  <a href="index.html">Contact</a>
 </ul>
+</div>-->
 </nav>
 
 </header>
-
-<body>
+<div id=main-content">
 <div class="slideshow">
    <!-- <figure class="show">
         <img src="http://themarklee.com/wp-content/uploads/2013/12/snowying.jpg" width="100%" /><figcaption>"Snowying" by <a href="http://www.flickr.com/photos/fiddleoak/8511209344/">fiddleoak</a>.</figcaption> 
@@ -58,21 +96,24 @@
 <div class="featured">
 <h3>Featured Games</h3>
 <div class="game-module">
-<img src="photo.jpg">
+<a href="games/guardian.html"><img src="images/guardian-featured.jpg" alt="Featured Video Game Imagery: Guardian">
+<p>Guardian</p></a>
+</div>
+<div class="game-module">
+<img src="images/featured-game-altered.jpg" alt="Featured Video Game Imagery: Altered">
 <p>Altered</p>
 </div>
 <div class="game-module">
-<img src="photo.jpg">
-<p>Altered</p>
-</div>
-<div class="game-module">
-<img src="photo.jpg">
-<p>Altered</p>
+<img src="images/featured-game-divided.jpg" alt="Featured Video Game Imagery: Divided">
+<p>Divided</p>
 </div>
 </div>
-</body>
 <footer>
 <p>&copy; Ryan Fleury</p>
+<div class="social-media">
+<a href="https://www.youtube.com/user/DrunkenWaffle"><img src="images/youtube.png" alt="Ebrius Youtube Page Link" width="80px"></a>
+</div>
 </footer>
-
+</div>
+</body>
 </html>
