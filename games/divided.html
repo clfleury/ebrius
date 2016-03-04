@@ -8,11 +8,13 @@
 <body>
 
 <header>
+  <input type="checkbox" id="togglebox" />
+  <label for="togglebox" id="navtoggler">Menu</label>
 <img src="../images/ebrius-indie-game-studo-logo.png" width="150" alt="Ebrius Indie Video Game Studio Logo">
 <h1>Ebrius</h1>
 <h2>Game Studio</h2>
 
-<nav>
+<nav id="offcanvas">
 <ul>
   <li><a href="../index.html">Home</a></li>
   <li>
@@ -28,33 +30,14 @@
   </div>
 </div>
   </li>
-  <li><a href="index.html">About</a></li>
-  <li><a href="index.html">Contact</a></li>
+  <li><a href="../about/index.html">About</a></li>
+  <li><a href="../contact/index.html">Contact</a></li>
 </ul>
-
-<div class="mobile-menu">
-  <div class="mobile-dropdown">
-  <div class="mobile-drop-menu">Menu</div>
-  <div class="mobile-dropdown-content">
-  <a href="../index.html">Home</a>
-  <div class="dropdown">
-  <div class="drop-menu">Games</div>
-  <div class="dropdown-content">
-    <a href="guardian.html">Guardian</a>
-    <a href="#">Altered</a>
-    <a href="#">Dunlore</a>
-    <a href="#">Charm</a>
-    <a href="#">Chasm Climb</a>
-  </div>
-</div>
-  <a href="index.html">About</a>
-  <a href="index.html">Contact</a>
-</ul>
-</div>
 </nav>
 
 </header>
 
+<div id=main-content">
 <div class="main-game-info">
 <div class="video">
 <img src="../images/divided-video-placeholder.jpg" alt="Divided Video Placeholder">
@@ -84,6 +67,7 @@
 <a href="https://www.youtube.com/user/DrunkenWaffle"><img src="../images/youtube.png" alt="Ebrius Youtube Page Link" width="80px"></a>
 </div>
 </footer>
+</div>
 </body>
 
 </html>
